@@ -1,0 +1,174 @@
+h1{
+	color: white;
+}
+
+.Blank{
+	background-color: #d7c4f9;
+}
+
+body{
+	display: grid;
+	grid-template-columns: 200px 150px 200px 100px 170px 220px;
+	grid-template-rows: 200px 200px 180px 100px 250px 200px 100px;
+	margin-left: 400px;
+}
+
+.Box1{
+	border-left: 5px solid black;
+	grid-column: 1/2;
+	grid-row: 5/6;
+}
+.Box2{
+	border-top: 5px solid black; 
+	border-bottom: 5px solid black;
+	grid-column: 2/3;
+	grid-row: 1/7;
+}
+.Box3{
+	border-bottom: 5px solid black;
+	height: 195px;
+}
+.Box4{
+	border-right: 5px solid black;
+	width: 585px;
+}
+
+.Classroom {
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: #FF9800;
+}
+.C01{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.C02{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.C03{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.C04{
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+.C05{
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+.Stairs{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: red;
+}
+
+.S01{
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.S02{
+	width: 90px;
+	height: 190px; 
+	grid-row: 7/8;
+	margin-left: 450px;
+	margin-top: -100px;
+
+}
+.Openspace{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #00ff00c9;
+}
+.OS01{
+	grid-column: 1/2;
+	grid-row: 6/7;
+}
+.OS02{
+	grid-column: 3/5;
+	grid-row: 4/6;
+}
+
+.Washroom{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: brown;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.Principalroom{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: #03a9f4;
+  grid-column: 5/6;
+  grid-row: 5/6;
+}
+
+.HODRoom{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: #03a9f4;
+  grid-column: 6/7;
+  grid-row: 5/6;
+}
+
+#nested1{
+       display: grid;
+       grid-column: 3/4;
+       grid-row: 6/7;
+       grid-template-columns: 100px 100px;
+       grid-template-rows: 100px 100px;
+}
+
+.ReadingRoom{
+	border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: #03a9f4;
+  width: 240px;
+  height: 190px; 
+ grid-row: 7/8;
+	margin-left: 350px;
+	margin-top: -100px;
+}
+
+.Library{
+	border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: #03a9f4;
+  width: 230px;
+  height: 190px; 
+ grid-row: 7/8;
+	margin-left: 450px;
+	margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
