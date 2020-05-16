@@ -6,11 +6,20 @@ h1{
 	background-color: #d7c4f9;
 }
 
-body{
+header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+  text-decoration: underline;
+  margin: 100px;
+}
+
+#map{
 	display: grid;
 	grid-template-columns: 200px 150px 200px 100px 170px 220px;
 	grid-template-rows: 200px 200px 180px 100px 250px 200px 100px;
-	margin-left: 400px;
+	margin: 200px;
+  margin-top: 100px;
 }
 
 .Box1{
