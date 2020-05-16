@@ -8,7 +8,10 @@ h1{
 
 body{
   background: linear-gradient(90deg, rgb(3, 244, 155), rgb(86, 0, 255));
-	height: 100%;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header{
