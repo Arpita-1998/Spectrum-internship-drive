@@ -8,6 +8,7 @@ h1{
 
 body{
   background: linear-gradient(90deg, rgb(3, 244, 155), rgb(86, 0, 255));
+	height: 100%;
 }
 
 header{
