@@ -200,7 +200,7 @@ div:hover{
     background-color: white;
     border: 10px solid black;
     font-size: 40px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-weight: bold;
     grid-column: 5/7;
     grid-row: 3/4;
