@@ -1,0 +1,284 @@
+.loader {
+    background: none repeat scroll 0 0 #000000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; 
+}
+
+.loader .loader_inner {
+    background-image: url(preloader.gif);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    margin-top: -80px;
+    margin-left: -80px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+h1{
+	color: white;
+}
+
+.Blank{
+	background-color: white;
+}
+
+html{
+  background: linear-gradient(90deg, rgb(3, 244, 155) 0% , rgb(86, 0, 255) 100%);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: underline;
+  color: white;
+  margin: 10px;
+}
+
+#map{
+  display: grid;
+  grid-template-columns: 126px 88px 126px 63px 252px;
+  grid-template-rows: 110px 110px 110px 60px 100px 100px 100px 50px;
+  margin: 200px;
+  margin-top: 20px;
+}
+
+.Box1{
+  border-top: 5px solid black; 
+  border-bottom: 5px solid black;
+  grid-column: 2/3;
+  grid-row: 1/8;
+}
+.Box2{
+  border-bottom: 5px solid black;
+  height: 95px;
+}
+.Box3{
+  border-right: 5px solid black;
+  width: 373px ;
+}
+
+.Classroom {
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color: #FF9800;
+}
+.C01{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.C02{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.C03{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.C04{
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.C05{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.Stairs{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color: red;
+}
+
+.S01{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.S02{
+    width: 58px;
+    height: 100px;
+    grid-row: 8/9;
+    margin-left: 275px;
+    margin-top: -60px;
+}
+
+.StaffRoom{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color:  #03a9f4;
+  grid-column: 1/2;
+  grid-row: 6/8;
+}
+
+.Lab{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color:  #03a9f4;
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+
+.OpenSpace{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  background-color: #00ff00c9;
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.Washroom{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color: brown;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.Conference{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color: #03a9f4;
+  grid-column: 5/6;
+  grid-row: 5/7;
+}
+
+
+#nested1{
+       display: grid;
+       grid-column: 3/4 ;
+       grid-row: 7/8 ;
+       grid-template-columns:63px 63px ;
+       grid-template-rows: 50px 50px ;
+}
+
+.Examination{
+    border: 5px solid black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #03a9f4;
+    width: 126px;
+    height: 100px;
+    grid-row: 8/9;
+    margin-left: 217px;
+    margin-top: -60px;
+  }
+
+.Academic{
+    border: 5px solid black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #03a9f4;
+    width: 166px;
+    height: 100px;
+    grid-row: 8/9;
+    margin-left: 265px;
+    margin-top: -60px;
+}
+
+.Board1{
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 1.5;
+    height: 200px;
+    /* width: 390px; */
+    border: 5px solid black;
+    padding: 7%;
+    font-family: 'Florence', cursive;
+    font-size: 30px;
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+
+.Board2{
+    background-color: white;
+    border: 5px solid black;
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+    grid-column: 5/6;
+    grid-row: 3/4;
+    height: 110px;
+    width: 240px
+}
+
+@-webkit-keyframes hover-class {
+            50% {
+               background-color: #ff0079;
+            }
+          }
+ @keyframes hover-class {
+            50% {
+                background-color: #ff0079;
+            }
+          }
+
+.hover-class{
+display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            overflow: hidden;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+}
+
+.hover-class:hover, .hover-class:focus, .hover-class:active{
+            -webkit-animation-name: hover-class;
+            animation-name: hover-class;
+            -webkit-animation-duration: 0.25s;
+            animation-duration: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #532d0b;
+            color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
