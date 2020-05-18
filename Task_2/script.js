@@ -4,7 +4,6 @@ $(window).load(function() {
 	$(".loader").delay(2000).fadeOut(100); // gif will stay for 2 secs, fade out in 100ms
 })
 
-})
 
 function showTime(){
 
