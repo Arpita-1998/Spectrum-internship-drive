@@ -16,7 +16,7 @@ header{
 
 #map{
 	display: grid;
-	grid-template-columns: 126px 88px 126px 63px 252px;
+	grid-template-columns: 126px 88px 126px 63px 126px 126px;
 	grid-template-rows: 110px 110px 110px 60px 100px 100px 100px 50px;
 	margin: 200px;
   margin-top: 20px;
@@ -64,6 +64,10 @@ header{
 	grid-column: 3/4;
 	grid-row: 2/3;
 }
+.C06{
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
 
 .Stairs{
   border: 5px solid black;
@@ -83,6 +87,7 @@ header{
     grid-row: 8/9;
     margin-left: 275px;
     margin-top: -60px;
+
 }
 
 .StaffRoom{
@@ -93,16 +98,6 @@ header{
   background-color:  #03a9f4;
 	grid-column: 1/2;
 	grid-row: 6/8;
-}
-
-.Lab{
-  border: 5px solid black;
-  font-weight: normal;
-  text-align: center;
-  font-size: 0.7em;
-  background-color:  #03a9f4;
-  grid-column: 3/4;
-  grid-row: 3/5;
 }
 
 .OpenSpace{
@@ -125,7 +120,7 @@ header{
   grid-row: 5/6;
 }
 
-.Conference{
+.CTTCRoom{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
@@ -135,16 +130,26 @@ header{
   grid-row: 5/7;
 }
 
+.Spectrum{
+  border: 5px solid black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.7em;
+  background-color: #03a9f4;
+  grid-column: 6/7;
+  grid-row: 5/7;
+}
+
 
 #nested1{
        display: grid;
        grid-column: 3/4 ;
        grid-row: 7/8 ;
-       grid-template-columns:63px 63px ;
+       grid-template-columns: 63px 63px ;
        grid-template-rows: 50px 50px ;
 }
 
-.Examination{
+.MeetingRoom{
 	  border: 5px solid black;
     font-weight: normal;
     text-align: center;
@@ -155,9 +160,9 @@ header{
     grid-row: 8/9;
     margin-left: 217px;
     margin-top: -60px;
-  }
+}
 
-.Academic{
+.Lab{
 	  border: 5px solid black;
     font-weight: normal;
     text-align: center;
@@ -169,15 +174,4 @@ header{
     margin-left: 265px;
     margin-top: -60px;
 }
-
-
-
-
-
-
-
-
-
-
-
 

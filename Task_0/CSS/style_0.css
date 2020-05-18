@@ -9,17 +9,17 @@ h1{
 header{
   font-weight: bold;
   text-align: center;
-  font-size: 3em;
+  font-size: 1.5em;
   text-decoration: underline;
-  margin: 100px;
+  margin: 10px;
 }
 
 #map{
 	display: grid;
-	grid-template-columns: 200px 150px 200px 100px 170px 220px;
-	grid-template-rows: 200px 200px 180px 100px 250px 200px 100px;
+	grid-template-columns: 126px 88px 126px 62px 116px 136px;
+	grid-template-rows: 110px 110px 110px 56px 157px 120px 51px;
 	margin: 200px;
-        margin-top: 100px;
+  margin-top: 20px;
 }
 
 .Box1{
@@ -35,18 +35,18 @@ header{
 }
 .Box3{
 	border-bottom: 5px solid black;
-	height: 195px;
+	height: 115px;
 }
 .Box4{
 	border-right: 5px solid black;
-	width: 585px;
+	width: 372px;
 }
 
 .Classroom {
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.7em;
   background-color: #FF9800;
 }
 .C01{
@@ -74,7 +74,7 @@ header{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.7em;
   background-color: red;
 }
 
@@ -83,18 +83,18 @@ header{
 	grid-row: 4/5;
 }
 .S02{
-	width: 90px;
-	height: 190px; 
-	grid-row: 7/8;
-	margin-left: 450px;
-	margin-top: -100px;
+	  width: 56px;
+    height: 111px;
+    grid-row: 7/8;
+    margin-left: 275px;
+    margin-top: -70px;
 
 }
 .Openspace{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: #00ff00c9;
 }
 .OS01{
@@ -110,7 +110,7 @@ header{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.7em;
   background-color: brown;
   grid-column: 3/4;
   grid-row: 3/4;
@@ -120,7 +120,7 @@ header{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.7em;
   background-color: #03a9f4;
   grid-column: 5/6;
   grid-row: 5/6;
@@ -130,7 +130,7 @@ header{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.7em;
   background-color: #03a9f4;
   grid-column: 6/7;
   grid-row: 5/6;
@@ -140,34 +140,34 @@ header{
        display: grid;
        grid-column: 3/4;
        grid-row: 6/7;
-       grid-template-columns: 100px 100px;
-       grid-template-rows: 100px 100px;
+       grid-template-columns: 63px 63px;
+       grid-template-rows: 60px 60px;
 }
 
 .ReadingRoom{
-	border: 5px solid black;
-  font-weight: normal;
-  text-align: center;
-  font-size: 1em;
-  background-color: #03a9f4;
-  width: 240px;
-  height: 190px; 
- grid-row: 7/8;
-	margin-left: 350px;
-	margin-top: -100px;
+	  border: 5px solid black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #03a9f4;
+    width: 138px;
+    height: 111px;
+    grid-row: 7/8;
+    margin-left: 215px;
+    margin-top: -70px;
 }
 
 .Library{
-	border: 5px solid black;
-  font-weight: normal;
-  text-align: center;
-  font-size: 1em;
-  background-color: #03a9f4;
-  width: 230px;
-  height: 190px; 
- grid-row: 7/8;
-	margin-left: 450px;
-	margin-top: -100px;
+	  border: 5px solid black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #03a9f4;
+    width: 155px;
+    height: 111px;
+    grid-row: 7/8;
+    margin-left: 275px;
+    margin-top: -70px;
 }
 
 
