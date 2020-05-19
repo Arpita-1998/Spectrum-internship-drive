@@ -26,7 +26,6 @@
 
 <div class= "Blank Box1"></div>
 
-
 <div class="Classroom C02 hover-class">
 <h1>Classroom</h1>
 </div>
@@ -36,16 +35,13 @@
 </div>
 
 <div class="Stairs S01 hover-class">
-	<a href="second_floor.html" style="text-decoration: none">
-		<img src="upimg.png" alt="up arrow" width="20px" height="20px">
-<h1 style="margin: 0px">Stairs</h1>
-</a>
+	<!-- Trigger/Open The Modal -->
+    <button id="myBtn01" onclick="openModal();"> Stairs </button>
 </div>
 
 <div class="Washroom hover-class">
 <h1>Washroom</h1>
 </div>
-
 
 <div class="StaffRoom hover-class">
 <h1>Staff Room</h1>
@@ -78,10 +74,8 @@
 
 
 <div class="Stairs S02 hover-class">
-	<a href="ground_floor.html" style="text-decoration: none">
-		<img src="downimg.png" alt="down arrow" width="40px" height="50px">
-<h1 style="margin: 0px">Stairs</h1>
-</a>
+	<!-- Trigger/Open The Modal -->
+    <button id="myBtn02" onclick="openModal();"> Stairs </button>
 </div>
 
 <div class="Examination hover-class">
@@ -98,6 +92,25 @@
            
   <div class="Board2 hover-class">
      <p id="dateandtime"></p>
+  </div>
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+    <span class="close">&times;</span>
+    <h2> CLICK THE FLOOR </h2>
+    </div>
+
+    <div class="modal-body">
+    <p><a href="ground_floor.html"> Ground Floor </a></p>
+    <p><a href="first_floor.html"> First Floor </a></p>
+    <p><a href="second_floor.html"> Second Floor </a></p>
+    </div>
   </div>
 
 </div>
