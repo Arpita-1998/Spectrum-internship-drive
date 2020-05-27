@@ -28,6 +28,9 @@
 h1{
 	color: white;
 }
+h3{
+  margin: 0px;
+}
 
 .Blank{
 	background-color: white;
@@ -74,12 +77,13 @@ header{
   width: 373px ;
 }
 
-.Classroom {
+#Classroom {
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
   font-size: 0.7em;
   background-color: #FF9800;
+  cursor: pointer;
 }
 .C01{
   grid-column: 1/2;
@@ -109,6 +113,9 @@ header{
   font-size: 0.7em;
   background-color: red;
 }
+button:hover, button:focus{
+cursor: pointer;
+}
 
 #myBtn01 {
   font-size: 20px;
@@ -134,7 +141,7 @@ header{
     margin-top: -60px;
 }
 
-.StaffRoom{
+#StaffRoom{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
@@ -142,9 +149,10 @@ header{
   background-color:  #03a9f4;
   grid-column: 1/2;
   grid-row: 6/8;
+  cursor: pointer;
 }
 
-.Lab{
+#Lab{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
@@ -152,6 +160,7 @@ header{
   background-color:  #03a9f4;
   grid-column: 3/4;
   grid-row: 3/5;
+  cursor: pointer;
 }
 
 .OpenSpace{
@@ -174,7 +183,7 @@ header{
   grid-row: 5/6;
 }
 
-.Conference{
+#Conference{
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
@@ -182,6 +191,7 @@ header{
   background-color: #03a9f4;
   grid-column: 5/6;
   grid-row: 5/7;
+  cursor: pointer;
 }
 
 
@@ -193,7 +203,7 @@ header{
        grid-template-rows: 50px 50px ;
 }
 
-.Examination{
+#Examination{
     border: 5px solid black;
     font-weight: normal;
     text-align: center;
@@ -204,9 +214,10 @@ header{
     grid-row: 8/9;
     margin-left: 217px;
     margin-top: -60px;
+    cursor: pointer;
   }
 
-.Academic{
+#Academic{
     border: 5px solid black;
     font-weight: normal;
     text-align: center;
@@ -217,20 +228,23 @@ header{
     grid-row: 8/9;
     margin-left: 265px;
     margin-top: -60px;
+    cursor: pointer;
 }
 
 .Board1{
     background-color: white;
     box-sizing: border-box;
     line-height: 1.5;
-    height: 200px;
-    /* width: 390px; */
+   /* height: 200px; */
+    width: 400px;
     border: 5px solid black;
-    padding: 7%;
+    padding: 5%;
     font-family: 'Florence', cursive;
-    font-size: 30px;
+    font-size: 15px;
     grid-column: 5/6;
     grid-row: 1/3;
+    /* overflow-y: scroll; */
+    background-color: #FFEB3B;
 }
 
 .Board2{
@@ -242,7 +256,7 @@ header{
     grid-column: 5/6;
     grid-row: 3/4;
     height: 110px;
-    width: 240px
+    width: 240px;
 }
 
 @-webkit-keyframes hover-class {
