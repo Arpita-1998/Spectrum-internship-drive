@@ -18,19 +18,19 @@
 
 <header> FIRST FLOOR </header>
 
-<div id= "map">
+<div id= "map" onmouseout="defaultinfo()">
 
-<div class="Classroom C01 hover-class">
+<div id="Classroom" class="C01 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
 <div class= "Blank Box1"></div>
 
-<div class="Classroom C02 hover-class">
+<div id="Classroom" class="C02 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
-<div class="Classroom C03 hover-class">
+<div id="Classroom" class="C03 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
@@ -43,19 +43,19 @@
 <h1>Washroom</h1>
 </div>
 
-<div class="StaffRoom hover-class">
+<div id="StaffRoom" class="hover-class" onmouseover="Notice(this);">
 <h1>Staff Room</h1>
 </div>
 
-<div class="Classroom C04 hover-class">
+<div id="Classroom" class="C04 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
-<div class="Classroom C05 hover-class">
+<div id="Classroom" class="C05 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
-<div class="Lab hover-class">
+<div id="Lab" class="hover-class" onmouseover="Notice(this);">
 <h1>Lab</h1>
 </div>
 
@@ -63,7 +63,7 @@
 <h1>Open Space</h1>
 </div>
 
-<div class="Conference hover-class">
+<div id="Conference" class="hover-class" onmouseover="Notice(this);">
 <h1>Conference Room</h1>
 </div>
 
@@ -78,16 +78,17 @@
     <button id="myBtn02" onclick="openModal();"> Stairs </button>
 </div>
 
-<div class="Examination hover-class">
+<div id="Examination" class="hover-class" onmouseover="Notice(this);">
 <h1>Examination Section</h1>
 </div>
 
-<div class="Academic hover-class">
+<div id="Academic" class="hover-class" onmouseover="Notice(this);">
 <h1>Academic Section</h1>
 </div>
 
- <div class="Board1 hover-class">
-     <p>Board To <br>Display Data</p>
+ <div class="Board1" id="myNotice">
+     <h3> NOTICE </h3>
+     <p> College has been accredited Grade 'A' by National Assesment and Accreditation Council(NAAC) and is conferred with UGC Autonomous status.</p>
  </div>
            
   <div class="Board2 hover-class">
@@ -115,7 +116,7 @@
 
 </div>
 
-<script src="script.js"></script>
+<script src="JS/script.js"></script>
 
 </body>
 </html>

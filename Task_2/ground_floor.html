@@ -18,20 +18,20 @@
 
 <header> GROUND FLOOR </header>
 
-<div id= "map">
+<div id= "map" onmouseout="defaultinfo()">
 
-<div class="Classroom C01 hover-class">
+<div id="Classroom" class="C01 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
 <div class= "Blank Box2"></div>
 
 
-<div class="Classroom C02 hover-class">
+<div id="Classroom" class="C02 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
-<div class="Classroom C03 hover-class">
+<div id="Classroom" class="C03 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
@@ -46,11 +46,11 @@
 <h1>Open Space</h1>
 </div>
 
-<div class="Classroom C04 hover-class">
+<div id="Classroom" class="C04 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
-<div class="Classroom C05 hover-class">
+<div id="Classroom" class="C05 hover-class" onmouseover="Notice(this);">
 <h1>Classroom</h1>
 </div>
 
@@ -62,11 +62,11 @@
 <h1>Open Space</h1>
 </div>
 
-<div class="Principalroom hover-class">
+<div id="Principalroom" class="hover-class" onmouseover="Notice(this);">
 <h1>Principal's Room</h1>
 </div>
 
-<div class="HODRoom hover-class">
+<div id="HODRoom" class="hover-class" onmouseover="Notice(this);">
 <h1>HOD Room</h1>
 </div>
 
@@ -80,16 +80,17 @@
     <button id="myBtn02" onclick="openModal();"> Stairs </button>
 </div>
 
-<div class="ReadingRoom hover-class">
+<div id="ReadingRoom" class="hover-class" onmouseover="Notice(this);">
 <h1>Reading Room</h1>
 </div>
 
-<div class="Library hover-class">
+<div id="Library" class="hover-class" onmouseover="Notice(this);">
 <h1>Library</h1>
 </div>
 
-<div class="Board1 hover-class">
-     <p>Board To <br>Display Data</p>
+<div class="Board1" id="myNotice">
+     <h3> NOTICE </h3>
+     <p> College has been accredited Grade 'A' by National Assesment and Accreditation Council(NAAC) and is conferred with UGC Autonomous status.</p>
  </div>
            
   <div class="Board2 hover-class">
@@ -117,7 +118,7 @@
 
 </div>
 
-<script src="script.js"></script>
+<script src="JS/script.js"></script>
 
 </body>
 </html>
