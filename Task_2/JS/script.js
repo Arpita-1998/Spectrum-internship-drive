@@ -1,10 +1,11 @@
+// FOR PRE-LOADER
 $(window).load(function() {
 
    /* $(".loader_inner").fadeOut() */
 	$(".loader").delay(2000).fadeOut(100); // gif will stay for 2 secs, fade out in 100ms
 })
 
-
+// FOR DATE and TIME
 function showTime(){
 
 var today = new Date();
@@ -32,7 +33,18 @@ setTimeout(showTime, 1000); /* showTime() is called repeatedly after every 1000m
 
 showTime();
 
+// FOR INACTIVE ROOMS AS PER THE TIME
+const t = new Date();
+const h = t.getHours();
+const m = t.getHours();
+var inactive = document.querySelectorAll('.hover-class');
+for (var i=0; i<inactive.length; i++) {
+    if (h<8 || h>=20) {
+	    inactive[i].classList.remove("hover-class"); // disable the hover-effect
+    }
+}
 
+// FOR MODAL
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -56,11 +68,13 @@ window.onclick = function(event) {
   }
 }
 
+// FOR DEFAULT NOTICE
 function defaultinfo(){
 var notice = document.getElementById("myNotice");
 notice.innerHTML = "<h3> NOTICE </h3> <p> College has been accredited Grade 'A' by National Assesment and Accreditation Council(NAAC) and is conferred with UGC Autonomous status.</p>";
 }
 
+// FOR individual room notice
 function Notice(obj) {
 	var div = obj.id;
 	var notice = document.getElementById("myNotice");
