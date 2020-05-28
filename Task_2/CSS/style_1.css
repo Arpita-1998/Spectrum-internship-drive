@@ -37,11 +37,12 @@ h3{
 }
 
 html{
-  background: linear-gradient(90deg, rgb(3, 244, 155) 0% , rgb(86, 0, 255) 100%);
+  background: linear-gradient(90deg, rgb(3, 244, 155) 0% , rgb(86, 0, 255) 100%); 
+  background-image: url(first.jpeg);
   height: 100%;
   width: 100%;
   margin: 0;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
 }
 
@@ -50,8 +51,15 @@ header{
   text-align: center;
   font-size: 1.5em;
   text-decoration: underline;
-  color: black;
   margin: 10px;
+  color: white;
+}
+
+footer{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
 }
 
 #map{
@@ -60,6 +68,7 @@ header{
   grid-template-rows: 110px 110px 110px 60px 100px 100px 100px 50px;
   margin: 200px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .Box1{

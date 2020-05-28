@@ -25,12 +25,23 @@
     position: absolute;
 }
 
-body{
+html{
     background-color: #000000;
+    background-image: url(index.jpeg);
+    /* ackground-repeat: no-repeat;
+    background-size: cover; */
 }
 
 h1{
     margin-top: 50px;
     color: white;
     text-decoration: underline;
+}
+
+footer{
+  margin-top: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
 }
